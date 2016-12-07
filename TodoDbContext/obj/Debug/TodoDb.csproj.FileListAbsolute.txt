@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\TodoDbContext.dll.config
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\TodoDbContext.dll
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\TodoDbContext.pdb
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\NewTodoItem.dll
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\bin\Debug\NewTodoItem.pdb
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\obj\Debug\TodoDbContext.dll
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\obj\Debug\TodoDbContext.pdb
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoDbContext\obj\Debug\TodoDb.csprojResolveAssemblyReference.cache

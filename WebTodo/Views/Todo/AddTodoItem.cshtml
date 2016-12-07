@@ -1,0 +1,19 @@
+﻿@model WebTodo.Models.AddTodoViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h1 style="font:200; color:blueviolet">Add new todo item</h1>
+    <br />
+    <form asp-action="AddTodoItem" method="post" >
+        
+        Assignment: <input asp-for="Text" id="userText"  required/>
+           
+    </form>
+    <br />
+    <a class="btn" style="color:blue; background-color:antiquewhite" asp-controller="Todo" asp-action="Index2">Go back</a>
+</body>
+</html>

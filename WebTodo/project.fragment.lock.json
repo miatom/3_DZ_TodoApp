@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "exports": {
+    "NewTodoItem/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/NewTodoItem.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/NewTodoItem.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/NewTodoItem.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "TodoDb/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/TodoDbContext.dll": {}
+      },
+      "runtime": {
+        "../NewTodoItem/bin/Debug/NewTodoItem.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
+        "bin/Debug/TodoDbContext.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TodoDbContext.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "InterfacesSql/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/TodoSqlRepository.dll": {}
+      },
+      "runtime": {
+        "../../2_DZ/Sucelje_1ZAD/bin/Debug/PrviZad.dll": {},
+        "../../2_DZ/Sucelje_1ZAD/bin/Debug/Sucelje_1ZAD.dll": {},
+        "../NewTodoItem/bin/Debug/NewTodoItem.dll": {},
+        "../TodoDbContext/bin/Debug/TodoDbContext.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
+        "bin/Debug/TodoSqlRepository.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TodoSqlRepository.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

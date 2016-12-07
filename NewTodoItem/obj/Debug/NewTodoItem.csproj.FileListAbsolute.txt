@@ -1,0 +1,5 @@
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\NewTodoItem\bin\Debug\NewTodoItem.dll
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\NewTodoItem\bin\Debug\NewTodoItem.pdb
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\NewTodoItem\obj\Debug\NewTodoItem.dll
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\NewTodoItem\obj\Debug\NewTodoItem.pdb
+C:\Users\Lenovo\Google disk\faks\c#\3DZ\NewTodoItem\obj\Debug\NewTodoItem.csprojResolveAssemblyReference.cache

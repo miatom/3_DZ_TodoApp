@@ -1,0 +1,36 @@
+﻿@model List<NewTodoItem.TodoItem>
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h1 style="font:400; color:blueviolet" >ACTIVE TODO</h1>
+
+    <h2 style="color:darkblue">
+       <a class="btn" style="font:100; background-color:antiquewhite" asp-controller="Todo" asp-action="AddTodoItem">Add new todo</a>
+       &nbsp;
+       <a class="btn" style="font:100; background-color:antiquewhite"  asp-controller="Todo" asp-action="SeeCompleted">See completed todos</a>
+   </h2>
+    
+    @if (Model != null)
+    {
+         @foreach (var itemTodo in Model)
+         {
+
+               <hr />
+                  <h3 style="font:200">
+                    <b>@Model.IndexOf(itemTodo): @itemTodo.Text</b><br />
+                  </h3>
+                  <div style="font:100">
+                  <i>@itemTodo.DateCreated<br /></i>                 
+                    @Html.ActionLink("Mark as completed", "MarkAsCompleted", null, new { id = itemTodo.Id }) &#x2611;
+                    &nbsp;
+                    @Html.ActionLink("Delete", "DeleteTodo", null, new { id = itemTodo.Id }) &#x1f5d1
+                  </div>
+
+        }
+    }
+
+</body>
+</html>

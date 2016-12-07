@@ -1,0 +1,24 @@
+﻿@model List<NewTodoItem.TodoItem>
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h1>Active Todo</h1>
+    @if (Model != null)
+    {
+        @foreach (var itemTodo in Model)
+         {
+           <h2>
+               Assignment: @itemTodo.Text <br />
+               @Html.ActionLink("Mark as completed","MarkAsCompleted",null,new { id=itemTodo.Id});
+             
+           </h2>
+          }
+    }
+    <br />
+    <a style="color:darkslateblue" asp-controller="Todo" asp-action="Index2">Go back</a>
+</body>
+</html>
