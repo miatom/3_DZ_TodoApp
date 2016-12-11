@@ -192,7 +192,7 @@ namespace InterfacesSql
             
             using (_context=new TodoDbContext(ConnectionString))
             {
-                IQueryable<TodoItem> _pronadiAktivne = _context.TodoItem.Where(s => s.IsCompleted == false && s.UserId == userID).Select(s => s);
+                IQueryable<TodoItem> _pronadiAktivne = _context.TodoItem.Where(s => s.IsCompleted == false && s.UserId == userID).OrderByDescending(s=>s.DateCreated).Select(s => s);
                 var _rezultat = _pronadiAktivne.ToList();
                 return _rezultat;
             }
@@ -207,7 +207,7 @@ namespace InterfacesSql
             }
             using (_context=new TodoDbContext(ConnectionString))
             {
-                IQueryable<TodoItem> _pronadiNeAktivne = _context.TodoItem.Where(s => s.IsCompleted == true && s.UserId == userID).Select(s => s);
+                IQueryable<TodoItem> _pronadiNeAktivne = _context.TodoItem.Where(s => s.IsCompleted == true && s.UserId == userID).OrderByDescending(s=>s.DateCompleted).Select(s=>s);
                 var _rezultat = _pronadiNeAktivne.ToList();
                 return _rezultat;
             }

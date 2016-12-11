@@ -18,3 +18,23 @@ C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoSqlRepository\bin\Debug\TodoDbContex
 C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoSqlRepository\bin\Debug\IGenericList.pdb
 C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoSqlRepository\obj\Debug\TodoSqlRepository.dll
 C:\Users\Lenovo\Google disk\faks\c#\3DZ\TodoSqlRepository\obj\Debug\TodoSqlRepository.pdb
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\TodoSqlRepository.dll.config
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\TodoSqlRepository.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\TodoSqlRepository.pdb
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\NewTodoItem.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\PrviZad.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\Sucelje_1ZAD.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\TodoDbContext.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\IGenericList.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\NewTodoItem.pdb
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\PrviZad.pdb
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\Sucelje_1ZAD.pdb
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\TodoDbContext.pdb
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\bin\Debug\IGenericList.pdb
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\obj\Debug\InterfacesSql.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\obj\Debug\TodoSqlRepository.dll
+C:\Users\Lenovo\Documents\GitHub\3_DZ_TodoApp\TodoSqlRepository\obj\Debug\TodoSqlRepository.pdb
